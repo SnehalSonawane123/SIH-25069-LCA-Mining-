@@ -144,19 +144,23 @@ st.markdown("""
         justify-content: center;
     }
     .download-btn {
-        background: linear-gradient(135deg, #3498db, #2980b9);
+        background: #000000;
         color: white;
         padding: 12px 24px;
-        border: none;
+        border: 2px solid #333333;
         border-radius: 10px;
         text-decoration: none;
         display: inline-block;
         cursor: pointer;
         transition: all 0.3s ease;
+        font-weight: 600;
     }
     .download-btn:hover {
+        background: #333333;
+        border-color: #555555;
         transform: translateY(-2px);
-        box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+        color: white;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -1272,4 +1276,5 @@ if st.session_state.get('run_analysis', False):
             </ul>
         </div>
         """, unsafe_allow_html=True)
+
         st.markdown('</div>', unsafe_allow_html=True)
