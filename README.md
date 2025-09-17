@@ -1,17 +1,19 @@
-SIH Problem Statement ID - 25069
+SIH Problem Statement ID : 25069
 
-Problem Statement Title - Al-Driven Life Cycle Assessment (LCA) Tool for Advancing 
+Team Name : Team Sarathi
+
+Problem Statement Title : Al-Driven Life Cycle Assessment (LCA) Tool for Advancing 
 Circulanty and Sustainability in Metallurgy and Mining
 
 Project Name : CircuLCA : AI-Driven Life Cycle Assessment
 
-How to Run - 
+How to Run : 
 1. Install dependencies: `pip install -r requirements.txt`
 2. Run the app: `streamlit run LCA7.py`
 
-Description - 
+Description : 
 
-  What it does
+What it does
 - Calculates carbon footprint, energy intensity, and water usage for metal production
 - Provides actionable recommendations for process improvements, using circular approach  
 - Generates comprehensive PDF reports with charts and analysis
@@ -36,7 +38,7 @@ Use Cases
 - Sustainability benchmarking
 
 Future Scope
--
+
 
 
 Resources:
@@ -46,5 +48,6 @@ Project Report
 Presentation (PPT)
 
 Demo Video
+
 
 
